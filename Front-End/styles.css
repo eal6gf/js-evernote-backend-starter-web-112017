@@ -4,6 +4,8 @@
 .sidebar{
   float: left;
   padding: 20px;
-  border-color: black;
-  border-width: 40px;
+}
+div {
+  border: 2px solid black;
+  float:left;
 }
