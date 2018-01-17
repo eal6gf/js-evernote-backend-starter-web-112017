@@ -8,6 +8,14 @@
     <link rel='stylesheet' type='text/css' href='styles.css'>
   </head>
   <body>
+    <button id = "createButton" type="button">Create a New Note!</button>
+    <div id= "formArea">
+      <form id="newNoteForm">
+        Title: <input type="text" name="title"><br>
+        Content: <input type="text" name="content"><br><br>
+        <input type="button" onclick="createNewNote()" value="Submit">
+      </form>
+    </div>
     <div id="container">
       container
       <div id = 'sidebar'>
@@ -25,6 +33,5 @@
         <b>notepanel</b>
       </div>
     </div>
-
   </body>
 </html>

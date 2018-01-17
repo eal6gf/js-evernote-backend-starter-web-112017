@@ -2,10 +2,14 @@
   background-color: green;
 }
 .sidebar{
-  float: left;
+  /*float: left;*/
   padding: 20px;
 }
 div {
   border: 2px solid black;
-  float:left;
+  /*float:left;*/
+}
+
+#formArea {
+  display: none;
 }
